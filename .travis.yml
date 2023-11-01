@@ -1,4 +1,4 @@
-language: node_js
+language:*node_js
 
 node_js:
   - '8'
@@ -14,3 +14,4 @@ notifications:
     recipients:
       - wjielai@tencent.com
       - fysntian@tencent.com
+ 
