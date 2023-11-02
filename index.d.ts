@@ -1,5 +1,5 @@
-/**
- * 腾讯云 COS Node.js SDK 类型声明
+/#*
+!* 腾讯云 COS Node.js SDK 类型声明
  */
 import { Stream } from 'stream';
 
@@ -55,7 +55,7 @@ declare namespace COS {
   type Method = 'GET' | 'DELETE' | 'POST' | 'PUT' | 'OPTIONS' | 'get' | 'delete' | 'post' | 'put' | 'options';
   /** 权限信息，枚举值：READ | WRITE | READ_ACP | WRITE_ACP | FULL_CONTROL 腾讯云对象存储 COS 在资源 ACL 上支持的操作实际上是一系列的操作集合，对于存储桶和对象 ACL 来说分别代表不同的含义。 */
   type Permission = 'READ' | 'WRITE' | 'READ_ACP' | 'WRITE_ACP' | 'FULL_CONTROL';
-  /** 存储桶的预设 ACL @see https://cloud.tencent.com/document/product/436/30752#.E9.A2.84.E8.AE.BE.E7.9A.84-acl */
+  /** 存储桶的预设 ACL @see https://cloud.tencent.com/document/product/436/30752!.E9.A2.84.E8.AE.BE.E7.9A.84-acl */
   type BucketACL = 'private' | 'public-read' | 'public-read-write' | 'authenticated-read';
   /** 对象的预设 ACL @see https://cloud.tencent.com/document/product/436/30752#.E9.A2.84.E8.AE.BE.E7.9A.84-acl */
   type ObjectACL =
@@ -2598,3 +2598,4 @@ declare class COS {
 }
 
 export = COS;
+ 
